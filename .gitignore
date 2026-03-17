@@ -1,0 +1,46 @@
+# SBT
+target/
+project/target/
+project/project/target/
+sbt-cache/
+.bsp/
+
+# Scala
+*.class
+*.jar
+*.war
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & coverage
+target/test-reports/
+target/scala-*/scoverage-report/
+target/scala-*/coverage-report/
+*.xml.bak
+
+# JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+credentials
+*.key
+
+# Assembly / build artifacts (optional - uncomment if you don't want to track JARs)
+# *.assembly.jar
+.docs
