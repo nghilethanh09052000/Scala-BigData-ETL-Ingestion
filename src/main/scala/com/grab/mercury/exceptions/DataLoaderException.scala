@@ -1,0 +1,12 @@
+package com.grab.mercury.exceptions
+
+trait DataLoaderException
+
+trait DataLoaderFatalInternalException extends DataLoaderException
+trait DataLoaderFatalExternalException extends DataLoaderException
+trait DataLoaderTransientInternalException extends DataLoaderException
+trait DataLoaderTransientExternalException extends DataLoaderException
+trait DataLoaderInteruptedException extends DataLoaderException
+trait DataLoaderDataQualityInternalException extends DataLoaderException
+
+trait DataLoaderGeneralException extends DataLoaderException
